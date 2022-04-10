@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<META charset="utf-8">
+	</head>
+	<body>
+		<ol>
+			<li> . Składnia teoretyczna  otoczony ramką (może być tabela jedno komórkowa, konieczne wcięcia). </li>
+			<textarea rows="10" cols="100">
+				  <!--
+				 
+				<head>
+					(...)
+					<link rel="Stylesheet" type="text/css" href="style.css" />
+					(...)
+				</head>
+				 
+				 --> 
+					</textarea>
+			
+			<li>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz ile razy może on występować w dokumencie, jako podłączenie stylu CSS? </li>
+			<h2> wystarczy wpisać w treści nagłówkowej każdego z dokumentów (pomiędzy znacznikami head a /head), przedstawioną powyżej linijkę </h2>
+			
+			<li> Jak jest najprostsza forma wstawiania stylu zewnętrznego  otoczony ramką (może być tabela jedno komórkowa?  </li>
+			<textarea rows="5" cols="85">
+			<!--
+			<link rel="Stylesheet" type="text/css" href="style.css" />
+			-->
+			</textarea>
+			
+			<li> Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad musi być zachowana przy większej ilości dołączanych styli?  </li>
+			<h2> Dowolna ilośc </h2>
+			
+			<li>Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.  </li>
+			<h2> W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później. </h2>
+			
+			<li> Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?  </li>
+			<h2> Do edytowania arkuszy styli wystarczy zwykły edytor tekstowy  </h2>
+			
+			<li>Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS? </li>
+			<h2> Program wspomaga tworzenie kaskadowych arkuszy styli </h2>
+			
+			<li> Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli? </li>
+			<h2>  Rozszerzenie .css</h2>
+			
+			<li> Jakie są zalety zewnętrznego arkusza styli( dwie – z użyciem wyliczenia?  </li>
+			<h2>
+			<ul>
+				<li> możliwość zmiany wyglądu wielu stron naraz
+				<li> arkusze mogą być wspólne dla wielu dokumentów
+			</ul>
+			</h2>
+			
+			<li> Uwagi na temat pisania w CSS.   </li>
+			<h2>
+			<ol>
+				Znacznik LINK może znajdować się tylko i wyłącznie w nagłówku dokumentu. (sekcja head )
+				<li> można dołączyć dowolną liczbę zewnętrznych arkuszy stylów - każdy jako osobny element <link rel="Stylesheet" />.
+				<li> W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później.
+				<li> Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i edytowania wystarczy zwykły edytor tekst.
+				<li> Można się posłużyć specjalnym edytorem CSS.
+				<li> Należy jedynie pamiętać, że plik będący zewnętrznym arkuszem stylów musi mieć rozszerzenie *.css
+			</ol>
+			</h2>
+			
+		</ol>
+	</body>
+</html>
